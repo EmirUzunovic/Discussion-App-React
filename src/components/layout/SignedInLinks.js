@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const SignedInLinks = () => {
     return (
         <div>
-            <ul className="right hide-on-med-and-down">
+            <ul className="right hide-on-med-and-down valign-wrapper">
                 <li><NavLink to = '/createdisc'>Create Discussion</NavLink></li>
                 <li><a href ="/">Log Out</a></li>
                 <li><a href ="/"><i className = "material-icons">home</i></a></li>

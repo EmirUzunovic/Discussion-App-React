@@ -19,7 +19,7 @@ class Navbar extends Component {
 
     render(){
         return (
-            <nav className="nav-wrapper blue darken-2">
+            <nav className="nav-wrapper blue darken-2 ">
                 <div className="container">
                     <Link to = '/' className="brand-logo">Discussion</Link>
                     <a href="#" className="sidenav-trigger left" data-target="mobile-links"><i className = "material-icons">menu</i></a>
