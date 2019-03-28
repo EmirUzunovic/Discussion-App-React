@@ -15,7 +15,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Navbar />
-          <Route path = '/home' component = {Dashboard} />
+          <Route exact path = '/' component = {Dashboard} />
           <Route path = '/discussion/:id' component = {DiscussionDetails} />
           <Route path = '/createdisc' component = {CreateDiscussion} />
           <Route path = '/signIn' component = {SignIn} />
