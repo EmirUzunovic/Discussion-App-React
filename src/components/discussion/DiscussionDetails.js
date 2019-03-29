@@ -6,6 +6,7 @@ const DiscussionDetails = () => {
     return (
         <div>
             <h4>This is DiscussionDetails</h4>
+          
             <CommentsList />
             <AddComment />
         </div>
