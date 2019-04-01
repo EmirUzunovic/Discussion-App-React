@@ -1,14 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import DiscussionSummary from './DiscussionSummary'
 
 const DiscussionList = () => {
     return (
-        <div>
-            <h4>This is DiscussionList</h4>
-            <Link to = {'/discussion/' + ':id'}>
-                <DiscussionSummary />
-            </Link>
+        <div className="col s12 m6">
+            <h2>My Discussions</h2>
+            <ul id="discusions">
+                    <DiscussionSummary />
+            </ul>
+            
         </div>
     )
 }

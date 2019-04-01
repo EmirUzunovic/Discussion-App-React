@@ -5,9 +5,19 @@ import AddComment from '../comments/AddComment'
 const DiscussionDetails = () => {
     return (
         <div>
-            <h4>This is DiscussionDetails</h4>
+            <div className = "container">
+                <div className="card blue z-depth-1">
+                    <div className="card-content white-text">
+                        <span className="card-title">Ime Diskusije</span>
+                        <p>malo detaljnije opisana diskusija</p>
+                        <p>Posted by:project author First Name project author Last Name </p>
+                        <p>Posted by: moment toDate </p>
+                        <a href="#" className="btn"><span>Go back</span><i className = "material-icons right">arrow_back_ios</i></a>
+                    </div> 
+                </div>
           
-            <CommentsList />
+                <CommentsList />
+            </div>
             <AddComment />
         </div>
     )
